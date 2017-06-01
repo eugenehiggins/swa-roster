@@ -1,10 +1,10 @@
-import { SwaRostPage } from './app.po';
+import { SwaRosterPage } from './app.po';
 
-describe('swa-rost App', () => {
-  let page: SwaRostPage;
+describe('swa-roster App', () => {
+  let page: SwaRosterPage;
 
   beforeEach(() => {
-    page = new SwaRostPage();
+    page = new SwaRosterPage();
   });
 
   it('should display welcome message', done => {

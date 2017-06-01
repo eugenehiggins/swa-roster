@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  display: grid;
+  width: 90%;
+  //grid-template-columns: [name] 10rem [role] 5rem [stats] 15rem [equipment-skills] 20rem [missions] 5rem [miss-next] 5rem [end];
+  grid-template-columns: [name] 15% [role] 8% [stats] 25% [equipment-skills] 36% [missions] 8% [miss-next] 8% [end];
+  background-color: #eee;
+
+  .cell {
+    background-color: #555;
+    color: #eee;
+
+    &.faction {
+      grid-column: 1 / 3;
+      width: 50%;
+    }
+    &.team {
+      grid-column: 4 / 6;
+      width: 50%;
+    }
+  }
+
+
+}
+
